@@ -950,6 +950,6 @@ are available:
 Example Apps
 ============
 
-There are a number of example apps under ``conf/examples`` in the `git
+There are a number of example apps under ``conf/example_apps`` in the `git
 repository <https://github.com/home-assistant/appdaemon>`__ , and the ``conf/examples.yaml`` file gives sample parameters
 for them.
