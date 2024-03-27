@@ -46,9 +46,9 @@ Examples
 .. code:: python
 
     # if wanting to publish data to a broker
-    self.call_service("publish", topic = "homeassistant/bedroom/light", payload = "ON")
+    self.call_service("mqtt/publish", topic = "homeassistant/bedroom/light", payload = "ON")
     # if wanting to unsubscribe a topic from a broker in a different namespace
-    self.call_service("unsubscribe", topic = "homeassistant/bedroom/light", namespace = "mqtt2")
+    self.call_service("mqtt/unsubscribe", topic = "homeassistant/bedroom/light", namespace = "mqtt2")
 
 The MQTT API also provides 3 convenience functions to make calling of specific functions easier and more readable. These are documented in the following section.
 
